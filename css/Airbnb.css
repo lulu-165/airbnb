@@ -8,7 +8,9 @@
 a{
 	text-decoration: none;
 }
-
+.nopaddingr{
+	padding-right: 0 !important;
+}
 
 
 /*header*/
@@ -41,7 +43,7 @@ header>.banner>a:hover{
 	border-bottom: 3px solid rgba(0,0,0,0.5);
 }
 
-
+/*主体*/
 
 .box{
 	width: 100%;
@@ -51,6 +53,9 @@ header>.banner>a:hover{
 	margin-left: 15%;
 	margin-right:  15%;
 }
+
+
+/*标题、搜索框*/
 .content>.title{
 	padding-top: 120px;
 	padding-bottom: 30px;
@@ -78,9 +83,7 @@ header>.banner>a:hover{
 	flex: 1;
 	border-right: 1px solid rgba(0,0,0,0.2);
 }
-/*.content>.search>#search-boxa{
-	border: none;
-}*/
+
 .content>.search>.search-box>.search-title{
 	height: 35px;
 }
@@ -110,3 +113,234 @@ header>.banner>a:hover{
 	-webkit-appearance: button;
 }
 
+
+
+
+
+section{
+	padding-top: 50px;
+	width: 100%;
+}
+section>h2{
+	font-size: 2.3em;
+}
+
+/*探索爱彼迎*/
+.searchair{
+	float: left;
+	height: 70px;
+	width: 244px;
+	margin-right: 15px;
+	border:1px solid rgba(0,0,0,0.2);
+	box-shadow: 2px 2px 3px #aaa;
+}
+.searchair>.searchair-img{
+	float: left;
+}
+.searchair>.searchair-text{
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	padding-left: 5px;
+	font-size: 1.25em;
+}
+/*清除浮动*/
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+
+
+
+/*城市新玩法*/
+section>p{
+	font-size: 1.15em;
+	color: rgb(72,72,72);
+}
+.citybox{
+	width: 100%;
+	display: flex;
+}
+.city{
+	/* width: 330px; */
+	overflow: hidden;
+	flex: 1;
+	padding: 20px;
+
+	/*margin-right: 15px;
+	padding-top: 30px;*/
+}
+.city>.city-img{
+	width: 100%;
+	height: 170px;
+}
+.city>.city-img>img{
+	width: 368px;
+	height: 170px;
+}
+.city>.city-text{
+	padding-top: 10px;
+}
+.city>.city-text>p{
+	padding-bottom: 10px;
+	display: block;
+}
+.city>.city-text>.text-a{
+	font-size: 0.85em;
+	color: rgb(64,90,24);
+}
+.city>.city-text>.text-b{
+	font-size: 1.5em;
+}
+
+/*.cityr-img{
+	position: relative;
+}
+.cityr-img>img{
+	position: absolute;
+	right: 0;
+}
+
+*/
+
+
+/*热门目的地*/
+.hotbanner{
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.hotbanner>a{
+	display: block;
+	float: left;
+	padding: 20px;
+}
+.hotbanner>a:hover{
+	border-bottom: 3px solid #008489;
+}
+.hotbanner>a>.add{
+	font-size: 1.25em;
+}
+.hotbanner>a>.add:hover{
+	color: #008489;
+}
+.hottable{
+	width: 100%;
+	padding-top: 20px;
+
+}
+.hottable>table{
+	width: 100%;
+}
+.hotcontent{
+	padding: 20px;
+}
+.nopadding{
+	padding-left: 0 !important;
+}
+.lbtn{
+	width: 200px;
+	height: 50px;
+	background-color: #008489;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-size: 1.1em;
+	-webkit-appearance: button;
+}
+
+
+
+
+/*plus*/
+.plus-background{
+	width:1131px;
+	height: 280px;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-left: 30px;
+	background-image: url(../images/plus.png);
+	background-repeat: no-repeat;
+
+}
+.plus-background>p{
+	font-size: 1.75em;
+}
+.plus-background>input{
+	-webkit-appearance: button;
+	width: 180px;
+	height: 50px;
+	font-size: 1.1em;
+	background-color: white;
+	border: none;
+	box-shadow: 2px 2px 3px #aaa;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+
+/*春天出游好去处*/
+.spring-up{
+	margin-top: 20px;
+	display: flex;
+}
+.spring-up>.springcity{
+	flex: 1;
+	padding-right: 20px;
+}
+.springcity-text>p{
+	float: left;
+	padding-right: 10px;
+	line-height: 25px;
+}
+.springcity-text>.a,.b{
+	font-size: 1.15em;
+}
+
+.spring-down{
+	margin-top: 30px;
+	display: flex;
+}
+.spring-down>.springserves{
+	flex: 1;
+	display: flex;
+	line-height: 60px;
+	
+}
+.spring-down>.springserves>.springserves-text{
+	margin-left: 30px;
+	line-height: 30px;
+}
+
+/*享受*/
+.enjoybox{
+	padding-top: 20px;
+	display: flex;
+}
+.enjoy{
+	flex: 1;
+}
+
+
+/*体验*/
+.traveller{
+	margin-top: 20px;
+	width: 100%;
+}
+.traveller>table{
+	width: 100%;
+}
+.travellerbox{
+	padding: 20px;
+	/*第一列不左对齐*/
+}
+.traveller-text>a>span{
+	display: block;
+}

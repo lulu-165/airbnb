@@ -2,7 +2,11 @@
 <html>
 <head>
 	<title></title>
+	<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <script src="../jquery/jquery.min.js"></script>
+   <script src="bootstrap/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/Airbnb.css">
+	<!-- <link rel="stylesheet" href="css/reset.css"> -->
 </head>
 <meta charset="utf-8">
 <body>
@@ -31,7 +35,11 @@
 
 	 <div class="box">
 		<div class="content">
+			
+
 			<div class="title"><h1>Airbnb爱彼迎</h1><h2>全球450万民宿任你挑</h1></div>
+
+
 
 			<div class="search">
 				<div class="search-box">
@@ -54,25 +62,25 @@
 					<input type="button" class="button" name="" value="搜索">
 				</div>
 			</div>
-<!-- 
+ 
 
-			<section>
+			<section class="clearfix">
 				<h2>探索爱彼迎</h2>
 				<div class="searchair">
 					<div class="searchair-img">
-						<img src="">
+						<img src="images/fangyuan.jpg" height="70px">
 					</div>
 					<div class="searchair-text"><p>房源</p></div>
 				</div>
 				<div class="searchair">
-					<div class="searchair-img">
-						<img src="">
+					<div class="searchair-img" >
+						<img src="images/tiyan.jpg" height="70px">
 					</div>
 					<div class="searchair-text"><p>体验</p></div>
 				</div>
 				<div class="searchair">
 					<div class="searchair-img">
-						<img src="">
+						<img src="images/canguan.jpg" height="70px">
 					</div>
 					<div class="searchair-text"><p>餐馆</p></div>
 				</div>
@@ -82,57 +90,64 @@
 
 
 
-
-			<section>
+			
+			<section class="clearfix">
+			
 				<h2>城市新玩法</h2>
 				<p>当地人告诉你，他们城市的另一面</p>
-				<div class="city">
-					<div class="city-img"><img src=""></div>
+				<div class="citybox">
+				<div class="container">
+				<div class="row">
+				<div class="city nopadding col-xs-10 col-md-3">
+					<div class="city-img"><img src="images/jilongpo.jpg" width="330px" height="170px"></div>
 					<div class="city-text">
-						<p1>住进不一样的吉隆坡·普吉岛</p1>
-						<p2>识味人情里</p2>
-						<p3>不论是精心包好的一份荷叶椰浆饭，还是露天大排档的烧烤，人情味才是东南亚美食最重要的那味调料。</p3>
+						<p class="text-a">住进不一样的吉隆坡·普吉岛</p>
+						<p class="text-b">识味人情里</p>
+						<p class="text-c">不论是精心包好的一份荷叶椰浆饭，还是露天大排档的烧烤，人情味才是东南亚美食最重要的那味调料。</p>
 					</div>
 				</div>
-				<div class="city">
-					<div class="city-img"><img src=""></div>
+				<div class="city col-xs-10 col-md-3">
+					<div class="city-img"><img src="images/chongsheng.jpg" width="330px" height="170px"></div>
 					<div class="city-text">
-						<p1>住进不一样的冲绳</p1>
-						<p2>复得返自然</p2>
-						<p3>漫步遮天蔽日的森林，去找一眼温泉；支一张吊床，在星空下听海。时间在这里慢了下来。</p3>
+						<p class="text-a">住进不一样的冲绳</p>
+						<p class="text-b">复得返自然</p>
+						<p class="text-c">漫步遮天蔽日的森林，去找一眼温泉；支一张吊床，在星空下听海。时间在这里慢了下来。</p>
 					</div>
 				</div>
-				<div class="city">
-					<div class="city-img"><img src=""></div>
+				<div class="city nopaddingr cityr col-xs-10 col-md-3">
+					<div class="city-img cityr-img "><img src="images/shouer.jpg" width="330px" height="170px"></div>
 					<div class="city-text">
-						<p1>住进不一样的首尔</p1>
-						<p2>时针放慢的生活</p2>
-						<p3>首尔的魅力，不仅是美食美妆美服，还藏在那些小街小巷，当地人悠闲又用心的生活态度中。</p3>
+						<p class="text-a">住进不一样的首尔</p>
+						<p class="text-b">时针放慢的生活</p>
+						<p class="text-c">首尔的魅力，不仅是美食美妆美服，还藏在那些小街小巷，当地人悠闲又用心的生活态度中。</p>
 					</div>
 				</div>
+			    </div>
+			
+			</div>
+			</div>
 			</section>
 
 
 
-
-
-			<section>
+			<section class="clearfix">
 				<h2>热门目的地</h2>
-				<div class="hotbanner">
-					<div class="add"><a href="#">洛杉矶</a></div>
-					<div class="add"><a href="#">巴黎</a></div>
-					<div class="add"><a href="#">纽约</a></div>
-					<div class="add"><a href="#">台北</a></div>
-					<div class="add"><a href="#">北京</a></div>
-					<div class="add"><a href="#">杭州</a></div>
-					<div class="add"><a href="#">大理</a></div>
-					<div class="add"><a href="#">成都</a></div>
+				<div class="hotbanner clearfix">
+					<a class="nopadding" href="#"><div class="add">洛杉矶</div></a>
+					<a href="#"><div class="add">巴黎</div></a>
+					<a href="#"><div class="add">纽约</div></a>
+					<a href="#"><div class="add">台北</div></a>
+					<a href="#"><div class="add">北京</div></a>
+					<a href="#"><div class="add">杭州</div></a>
+					<a href="#"><div class="add">大理</div></a>
+					<a href="#"><div class="add">成都</div></a>
 				</div>
 				<div class="hottable">
+					<table>
 					<tr>
 					<td>
-						<div class="hotcontent">
-							<div class="hotimg"><img src=""></div>
+						<div class="hotcontent nopadding">
+							<div class="hotimg"><img src="images/hota.jpg" width="333px" height="222px"></div>
 							<div class="hottext">
 								<span>¥858每晚</span>
 								<span><img src="">119条评价</span>
@@ -143,7 +158,7 @@
 					</td>
 					<td>
 						<div class="hotcontent">
-							<div class="hotimg"><img src=""></div>
+							<div class="hotimg"><img src="images/hotb.jpg" width="333px" height="222px"></div>
 							<div class="hottext">
 								<span>¥858每晚</span>
 								<span><img src="">119条评价</span>
@@ -154,7 +169,7 @@
 					</td>
 					<td>
 						<div class="hotcontent">
-							<div class="hotimg"><img src=""></div>
+							<div class="hotimg"><img src="images/hotc.jpg" width="333px" height="222px"></div>
 							<div class="hottext">
 								<span>¥858每晚</span>
 								<span><img src="">119条评价</span>
@@ -166,8 +181,8 @@
 					</tr>
 					<tr>
 					<td>
-						<div class="hotcontent">
-							<div class="hotimg"><img src=""></div>
+						<div class="hotcontent nopadding">
+							<div class="hotimg"><img src="images/hotd.jpg" width="333px" height="222px"></div>
 							<div class="hottext">
 								<span>¥858每晚</span>
 								<span><img src="">119条评价</span>
@@ -178,7 +193,7 @@
 					</td>
 					<td>
 						<div class="hotcontent">
-							<div class="hotimg"><img src=""></div>
+							<div class="hotimg"><img src="images/hote.jpg" width="333px" height="222px"></div>
 							<div class="hottext">
 								<span>¥858每晚</span>
 								<span><img src="">119条评价</span>
@@ -189,7 +204,7 @@
 					</td>
 					<td>
 						<div class="hotcontent">
-							<div class="hotimg"><img src=""></div>
+							<div class="hotimg"><img src="images/hotf.jpg" width="333px" height="222px"></div>
 							<div class="hottext">
 								<span>¥858每晚</span>
 								<span><img src="">119条评价</span>
@@ -199,17 +214,18 @@
 						</div>
 					</td>
 					</tr>
+				</table>
 				</div>
-				<input type="button" value="查看更多洛杉矶房源" name="">
+				<input class="lbtn" type="button" value="查看更多洛杉矶房源" name="">
 			</section>
 
 
 
 
 
-			<section>
+			<section class="clearfix">
 				<h2>诚意推出爱彼迎plus</h2>
-				<div>
+				<div class="plus-background">
 					<p>品质和舒适性经过验证的精选房源</p>
 					<input type="button" value="浏览爱彼迎Plus房源" name="">
 				</div>
@@ -219,52 +235,52 @@
 
 
 
-			<section>
+			<section class="clearfix">
 				<h2>春天出游好去处</h2>
-				<div class="spring-up">
+				<div class="spring-up clearfix">
 					<div class="springcity">
-						<div class="springcity-img"><img src=""></div>
+						<div class="springcity-img"><img src="images/springa.jpg"></div>
 						<div class="springcity-text"><p class="a">京都</p><p class="b">静心之旅</p><p class="c">人均¥288/晚</p></div>
 					</div>
 					<div class="springcity">
-						<div class="springcity-img"><img src=""></div>
+						<div class="springcity-img"><img src="images/springb.jpg"></div>
 						<div class="springcity-text"><p class="a">京都</p><p class="b">静心之旅</p><p class="c">人均¥288/晚</p></div>
 					</div>
 					<div class="springcity">
-						<div class="springcity-img"><img src=""></div>
+						<div class="springcity-img"><img src="images/springc.jpg"></div>
 						<div class="springcity-text"><p class="a">京都</p><p class="b">静心之旅</p><p class="c">人均¥288/晚</p></div>
 					</div>
 					<div class="springcity">
-						<div class="springcity-img"><img src=""></div>
+						<div class="springcity-img"><img src="images/springd.jpg"></div>
 						<div class="springcity-text"><p class="a">京都</p><p class="b">静心之旅</p><p class="c">人均¥288/晚</p></div>
 					</div>
 					<div class="springcity">
-						<div class="springcity-img"><img src=""></div>
+						<div class="springcity-img"><img src="images/springe.jpg"></div>
 						<div class="springcity-text"><p class="a">京都</p><p class="b">静心之旅</p><p class="c">人均¥288/晚</p></div>
 					</div>
 					<div class="springcity">
-						<div class="springcity-img"><img src=""></div>
+						<div class="springcity-img"><img src="images/springf.jpg"></div>
 						<div class="springcity-text"><p class="a">京都</p><p class="b">静心之旅</p><p class="c">人均¥288/晚</p></div>
 					</div>
 				</div>
 				<div class="spring-down">
 					<div class="springserves">
-						<div class="springserves-img"><img src=""></div>
-						<div>
+						<div class="springserves-img"><img src="images/springg.png" height="70%" width="70%"></div>
+						<div class="springserves-text">
 							<p>24小时中文客服</p>
 							<p>+86 400-120-8508</p>
 						</div>
 					</div>
 					<div class="springserves">
-						<div class="springserves-img"><img src=""></div>
-						<div>
+						<div class="springserves-img"><img src="images/springh.png" height="70%" width="70%"></div>
+						<div class="springserves-text">
 							<p>安全支付</p>
 							<p>支付宝付款已向中国用户开通</p>
 						</div>
 					</div>
 					<div class="springserves">
-						<div class="springserves-img"><img src=""></div>
-						<div>
+						<div class="springserves-img"><img src="images/springi.png" height="70%" width="70%"></div>
+						<div class="springserves-text">
 							<p>芝麻信用</p>
 							<p>实名认证房东客房信息，真实可靠</p>
 						</div>
@@ -276,38 +292,53 @@
 
 
 
-			<section>
+			<section class="clearfix">
 				<h2>让您能够充分享受旅程的房源</h2>
-				<p>找到拥有您所需便利设施高分房源的</p>
+				<p>找到拥有您所需便利设施的高分房源</p>
+				<div class="enjoybox">
 				<div class="enjoy">
-					<div class="enjoy-img"><img src="" alt=""></div>
+					<div class="enjoy-img"><img src="images/enjoya.jpg" width="508px" height="260px" alt=""></div>
 					<div class="enjoy-text">
 						<p>2000多个房源</p>
 						<p>寻找适合家庭出游的理想房源，自由畅想私家空间</p>
 					</div>
 				</div>
 				<div class="enjoy">
-					<div class="enjoy-img"><img src="" alt=""></div>
+					<div class="enjoy-img"><img src="images/enjoyb.jpg" width="508px" height="260px" alt=""></div>
 					<div class="enjoy-text">
 						<p>2000多个房源</p>
 						<p>预定提供灵活预定和差旅所需设施的高分房源</p>
 					</div>
 				</div>
-				
+				</div>
 			</section>
 
 
 
 
 
-			<section>
+			<section class="clearfix">
 				<h2>旅行者们喜爱的体验</h2>
 				<p>在下趟旅程中，不妨预定由本地达人组织的体验活动</p>
 				<div class="traveller">
+					<table>
 					<tr>
 						<td>
-							<div class="travellerbox">
-								<div class="traveller-img"><img src=""></div>
+							<div class="travellerbox nopadding">
+								<div class="traveller-img"><img src="images/lvxingzhe.jpg" width="245px" height="160px"></div>
+								<div class="traveller-text">
+									<a>
+									<span>舞蹈课程·哈瓦那</span>
+									<span>Bailar es otra manera de vivir!</span>
+									<span>每人¥80</span>
+									<span>***99</span>
+									</a>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="travellerbox nopadding">
+								<div class="traveller-img"><img src="images/lvxingzhe.jpg" width="245px" height="160px"></div>
 								<div class="traveller-text">
 									<a>
 									<span>舞蹈课程·哈瓦那</span>
@@ -320,7 +351,7 @@
 						</td>
 						<td>
 							<div class="travellerbox">
-								<div class="traveller-img"><img src=""></div>
+								<div class="traveller-img"><img src="images/lvxingzhe.jpg" width="245px" height="160px"></div>
 								<div class="traveller-text">
 									<a>
 									<span>舞蹈课程·哈瓦那</span>
@@ -333,7 +364,7 @@
 						</td>
 						<td>
 							<div class="travellerbox">
-								<div class="traveller-img"><img src=""></div>
+								<div class="traveller-img"><img src="images/lvxingzhe.jpg" width="245px" height="160px"></div>
 								<div class="traveller-text">
 									<a>
 									<span>舞蹈课程·哈瓦那</span>
@@ -347,8 +378,8 @@
 					</tr>
 					<tr>
 						<td>
-							<div class="travellerbox">
-								<div class="traveller-img"><img src=""></div>
+							<div class="travellerbox nopadding">
+								<div class="traveller-img"><img src="images/lvxingzhe.jpg" width="245px" height="160px"></div>
 								<div class="traveller-text">
 									<a>
 									<span>舞蹈课程·哈瓦那</span>
@@ -361,7 +392,7 @@
 						</td>
 						<td>
 							<div class="travellerbox">
-								<div class="traveller-img"><img src=""></div>
+								<div class="traveller-img"><img src="images/lvxingzhe.jpg" width="245px" height="160px"></div>
 								<div class="traveller-text">
 									<a>
 									<span>舞蹈课程·哈瓦那</span>
@@ -374,7 +405,20 @@
 						</td>
 						<td>
 							<div class="travellerbox">
-								<div class="traveller-img"><img src=""></div>
+								<div class="traveller-img"><img src="images/lvxingzhe.jpg" width="245px" height="160px"></div>
+								<div class="traveller-text">
+									<a>
+									<span>舞蹈课程·哈瓦那</span>
+									<span>Bailar es otra manera de vivir!</span>
+									<span>每人¥80</span>
+									<span>***99</span>
+									</a>
+								</div>
+							</div>
+						</td>
+						<td>
+							<div class="travellerbox nopadding">
+								<div class="traveller-img"><img src="images/lvxingzhe.jpg" width="245px" height="160px"></div>
 								<div class="traveller-text">
 									<a>
 									<span>舞蹈课程·哈瓦那</span>
@@ -386,6 +430,7 @@
 							</div>
 						</td>
 					</tr>
+				</table>
 				</div>
 				<a href="#">
 					<span>显示全部（2000+）></span>
@@ -401,7 +446,7 @@
 
 
 
-		</div> -->
+		</div> 
 	</div> 
 </body>
 </html>
